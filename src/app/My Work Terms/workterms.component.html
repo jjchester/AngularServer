@@ -1,10 +1,10 @@
 
-<h1>Breweries</h1>
+<h1>My Work Terms</h1>
 
-<ul *ngIf="brews">
-  <li *ngFor="let brew of brews">
-    <p class="name">{{ brew.name }}</p>
-    <p class="country">{{ brew.country }}</p>
-    <a href="{{ brew.website_url }}" class="site">site</a>
+<ul *ngIf="workTerms">
+  <li class="grow" *ngFor="let workTerm of workTerms">
+    <p class="workTermNumber">{{ workTerm.workterm }}</p>
+    <p class="company">{{ workTerm.company }}</p>
+    <p class="position">{{ workTerm.position }}</p>
   </li>
 </ul>

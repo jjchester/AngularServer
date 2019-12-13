@@ -1,22 +1,22 @@
 /* tslint:disable:ban-types */
 import { Component, OnInit } from '@angular/core';
-import { HttpService} from '../http.service';
+import { HttpService } from '../http.service';
 
 @Component({
   selector: 'app-list',
-  templateUrl: './list.component.html',
-  styleUrls: ['./list.component.scss']
+  templateUrl: './workterms.component.html',
+  styleUrls: ['./workterms.component.scss']
 })
-export class ListComponent implements OnInit {
+export class WorktermsComponent implements OnInit {
 
-  brews: Object;
+  workTerms: WorkTermInformation[];
 
   constructor(private http: HttpService) { }
 
   ngOnInit() {
-    this.http.getBeer().subscribe(data => {
-      this.brews = data;
-      console.log(this.brews);
+    this.http.getWorkTerms().subscribe(data => {
+      this.workTerms = data as WorkTermInformation[];
+      console.log(this.workTerms);
     });
   }
 }

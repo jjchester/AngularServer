@@ -1,0 +1,14 @@
+{
+  "workTerms": [
+    {
+      "workTerm": "WT1",
+      "company": "None",
+      "position": "None"
+    },
+    {
+      "workTerm": "WT2",
+      "company": "Camis Inc",
+      "position": "Software Developer"
+    }
+  ]
+}
