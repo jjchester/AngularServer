@@ -6,35 +6,60 @@ ul {
   flex-wrap: wrap;
 
   li {
-    background: rgb(238, 238, 238);
-    padding: 1em;
+    background: transparent;
+    background: white;
+    background-size: 100% 100%;
+    border-radius: 7px;
+    border: 1px solid black;
     margin-right: 10px;
-    width: 20%;
-    height: 200px;
+    width: 250px;
+    height: 187px;
     margin-bottom: 1em;
+    margin-right: 30px;
     display: flex;
     flex-direction: column;
-  }
-    li:hover {
-      background-color: darken(lightgray, 10%);
-    }
-
-  .grow { transition: all .1s ease-in-out; }
-  .grow:hover { transform: scale(1.1); }
 
     p {
-      margin: 0;
+      color: black;
+      margin: 5px;
     }
 
     p.workTermNumber {
-      font-weight: bold;
+      grid-row: 1;
+      font-size: 2rem;
+    }
+
+    p.company, p.position {
       font-size: 1.2rem;
     }
 
-    p.company {
-      text-transform: uppercase;
-      font-size: .9rem;
-      flex-grow: 1;
+    .grid_container {
+      position: relative;
     }
+
+    .text_layer {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 1000;
+    }
+
+    .img_layer {
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+    }
+
+    .img {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      width: 100%;
+      height: 35%;
+      border-bottom: black 2px solid;
+    }
+
   }
+  .grow { transition: all .1s ease-in-out; }
+  .grow:hover { transform: scale(1.1); }
+}
 

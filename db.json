@@ -2,13 +2,28 @@
   "workTerms": [
     {
       "workTerm": "WT1",
-      "company": "None",
-      "position": "None"
+      "company": "No Company",
+      "position": "No Position"
     },
     {
       "workTerm": "WT2",
       "company": "Camis Inc",
       "position": "Software Developer"
+    },
+    {
+      "workTerm": "WT3",
+      "company": "TBD",
+      "position": "TBD"
+    },
+    {
+      "workTerm": "WT4",
+      "company": "TBD",
+      "position": "TBD"
+    },
+    {
+      "workTerm": "WT5",
+      "company": "TBD",
+      "position": "TBD"
     }
   ]
 }

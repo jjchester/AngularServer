@@ -3,8 +3,9 @@
 
 <ul *ngIf="workTerms">
   <li class="grow" *ngFor="let workTerm of workTerms">
-    <p class="workTermNumber">{{ workTerm.workterm }}</p>
-    <p class="company">{{ workTerm.company }}</p>
-    <p class="position">{{ workTerm.position }}</p>
+      <img class="img" src="assets/img/{{workTerm.company}}.png" alt="camping">
+      <p class="workTermNumber"> {{ workTerm.workTerm }}</p>
+      <p class="company">{{ workTerm.company }}</p>
+      <p class="position">{{ workTerm.position }}</p>
   </li>
 </ul>
