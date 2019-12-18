@@ -1,5 +1,5 @@
 interface WorkTermInformation {
-  workterm: string;
+  workTerm: string;
   company: string;
   position: string;
 }

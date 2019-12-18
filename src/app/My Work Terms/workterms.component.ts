@@ -16,7 +16,6 @@ export class WorktermsComponent implements OnInit {
   ngOnInit() {
     this.http.getWorkTerms().subscribe(data => {
       this.workTerms = data as WorkTermInformation[];
-      console.log(this.workTerms);
     });
   }
 }

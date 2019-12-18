@@ -1,11 +1,12 @@
-
 <h1>My Work Terms</h1>
-
-<ul *ngIf="workTerms">
-  <li class="grow" *ngFor="let workTerm of workTerms">
+<body>
+  <ul *ngIf="workTerms">
+    <li class="grow" *ngFor="let workTerm of workTerms">
+      <a href="#" class="btn" routerLink="/{{workTerm.workTerm}}"></a>
       <img class="img" src="assets/img/{{workTerm.company}}.png" alt="camping">
-      <p class="workTermNumber"> {{ workTerm.workTerm }}</p>
-      <p class="company">{{ workTerm.company }}</p>
-      <p class="position">{{ workTerm.position }}</p>
-  </li>
-</ul>
+        <p class="workTermNumber"> {{ workTerm.workTerm }}</p>
+        <p class="company">{{ workTerm.company }}</p>
+        <p class="position">{{ workTerm.position }}</p>
+    </li>
+  </ul>
+</body>

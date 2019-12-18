@@ -1,38 +1,51 @@
-
-
 <h1>Welcome!</h1>
 
-<div class="play-container">
-  <p>You've clicked <span (click)="countClick()">this</span> {{ clickCounter }} times.</p>
+
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <!-- Team Member 1 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Team Member</h5>
+          <div class="card-text text-black-50">Web Developer</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 2 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Team Member</h5>
+          <div class="card-text text-black-50">Web Developer</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Team Member</h5>
+          <div class="card-text text-black-50">Web Developer</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 4 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Team Member</h5>
+          <div class="card-text text-black-50">Web Developer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+
 </div>
-
-<div class="play-container">
-  <p>
-    <input type="text" [(ngModel)]="name">
-    <br>
-    <strong>You said: </strong> {{ name }}
-  </p>
-</div>
-
-<!--
-<div class="play-container" [ngStyle]="{
-'background-color': clickCounter > 4 ? 'yellow' : 'lightgray',
-'border':           clickCounter > 4 ? '4px solid black' : 'none'
-}
-">
--->
-
-<div class="play-container" [ngClass]="setClasses()">
-  <ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
-    <p>The click counter <strong>IS</strong> greater than 4</p>
-  </ng-template>
-
-  <ng-template #none>
-    The click counter <strong> IS NOT </strong> greater than 4
-  </ng-template>
-
-
-
-</div>
-
-
+<!-- /.container -->
