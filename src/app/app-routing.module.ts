@@ -10,7 +10,7 @@ import {Wt5Component} from './My Work Terms/wt5/wt5.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
-  { path: 'workTerms', component: WorktermsComponent},
+  { path: 'workterms', component: WorktermsComponent},
   { path: 'WT1', component: Wt1Component },
   { path: 'WT2', component: Wt2Component },
   { path: 'WT3', component: Wt3Component },
