@@ -46,4 +46,4 @@ testem.log
 Thumbs.db
 
 #Designer files
-/src/assets/img/Untitled.afdesign
+*.afdesign
