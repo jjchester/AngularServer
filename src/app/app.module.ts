@@ -14,6 +14,7 @@ import { Wt3Component } from './My Work Terms/wt3/wt3.component';
 import { Wt4Component } from './My Work Terms/wt4/wt4.component';
 import { Wt5Component } from './My Work Terms/wt5/wt5.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { AboutmeComponent } from './aboutme/aboutme.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     Wt2Component,
     Wt3Component,
     Wt4Component,
-    Wt5Component
+    Wt5Component,
+    AboutmeComponent
   ],
   imports: [
     BrowserModule,
