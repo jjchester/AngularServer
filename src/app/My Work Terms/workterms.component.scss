@@ -14,7 +14,7 @@ ul {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 15px;
 
     p {
       color: black;
@@ -51,8 +51,6 @@ ul {
 .card {
   width: 100%;
   border: 2px solid $primarygray;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 .card-img-top {
