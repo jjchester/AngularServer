@@ -66,3 +66,16 @@ h2 {
 .backarrow:hover {
   background: url(assets/img/backarrow_hover.png) no-repeat;
 }
+
+.details {
+  color: $primarygray;
+}
+
+.details-highlight {
+  color: $primarygray;
+  border-top: 2px solid #cc2b39;
+}
+
+.imgsrc {
+  font-size: 0.1em;
+}
