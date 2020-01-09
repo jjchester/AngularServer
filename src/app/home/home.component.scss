@@ -22,8 +22,11 @@ p {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#cc2b39' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
+.carousel-indicators {
+  bottom: -30px;
+}
 .carousel-indicators li {
-  margin-bottom: -30px;
+  bottom: -30px;
   display: inline-block;
   text-indent: 0;
   cursor: pointer;
@@ -44,6 +47,7 @@ p {
 .carousel-caption {
   top: 60px;
   color: black;
+  margin-bottom: 0px;
 }
 
 .imgsrc {

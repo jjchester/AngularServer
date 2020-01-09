@@ -55,6 +55,11 @@ h2 {
   color: $primarygray;
 }
 
+h4 {
+  margin-top: 2em;
+  color: $primarygray;
+}
+
 .backarrow {
   background: url(assets/img/backarrow.png) no-repeat;
   width: 64px;  /* your image width */
@@ -77,5 +82,5 @@ h2 {
 }
 
 .imgsrc {
-  font-size: 3pt;
+  font-size: 0.15em;
 }
