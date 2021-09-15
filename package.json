@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "json-server": "json-server --watch db.json"
+    "json-server": "json-server --watch db.json",
+    "deploy": "ng deploy --base-href=/WorktermReports/"
   },
   "private": true,
   "dependencies": {
