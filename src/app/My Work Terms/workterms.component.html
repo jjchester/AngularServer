@@ -3,8 +3,8 @@
   <ul *ngIf="workTerms">
     <li class="grow" *ngFor="let workTerm of workTerms">
       <a href="#" class="btn" routerLink="/{{workTerm.workTerm}}"></a>
-      <div class="card" style="width:250px">
-        <img class="card-img-top" src="assets/img/{{workTerm.company}}.png" alt="camping">
+      <div class="card" style="width:280px">
+        <img class="card-img-top" src="assets/img/{{workTerm.company}}.png" alt="company logo">
         <div class="card-body">
           <p class="workTermNumber"> {{ workTerm.workTerm }}</p>
           <p class="company">{{ workTerm.company }}</p>

@@ -1,24 +1,19 @@
 {
   "workTerms": [
     {
-      "workTerm": "WT2",
+      "workTerm": "WT1",
       "company": "Camis Inc",
       "position": "Software Developer"
     },
     {
+      "workTerm": "WT2",
+      "company": "Tulip Retail",
+      "position": "Software Developer"
+    },
+    {
       "workTerm": "WT3",
-      "company": "TBD",
-      "position": "TBD"
-    },
-    {
-      "workTerm": "WT4",
-      "company": "TBD",
-      "position": "TBD"
-    },
-    {
-      "workTerm": "WT5",
-      "company": "TBD",
-      "position": "TBD"
+      "company": "Tulip Retail",
+      "position": "Software Developer - Apps"
     }
   ]
 }
