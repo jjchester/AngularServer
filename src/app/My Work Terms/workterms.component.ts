@@ -1,7 +1,7 @@
 /* tslint:disable:ban-types */
 import { Component, OnInit } from '@angular/core';
 // import { HttpService } from '../http.service';
-import * as t from '../../../db.json';
+import workTerms from '../../../db.json';
 
 
 @Component({
@@ -18,6 +18,6 @@ export class WorktermsComponent implements OnInit {
     // this.http.getWorkTerms().subscribe(data => {
     //   this.workTerms = data as WorkTermInformation[];
     // });
-    this.workTerms = t.workTerms;
+    this.workTerms = workTerms.workTerms;
   }
 }

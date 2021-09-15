@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { Wt4Component } from './wt4.component';
 
@@ -6,7 +6,7 @@ describe('Wt4Component', () => {
   let component: Wt4Component;
   let fixture: ComponentFixture<Wt4Component>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ Wt4Component ]
     })
