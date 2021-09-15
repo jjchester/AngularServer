@@ -4,7 +4,7 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */body{font-family:Nunito,"sans-serif";font-size:18px;font-palette:#383a3f}header{background:#6f00ff;padding:1em 0}header a{color:#fff;text-decoration:none}header a.logo{font-weight:700}header nav{float:right}header nav ul{list-style-type:none;margin:0;display:flex}header nav ul li a{padding:1em}header nav ul li a:hover{background:#5900cc}h1,h2,h4{margin-top:2em;color:#383a3f}.backarrow{background:url(backarrow.5902750a0901771e45dc.png) no-repeat;width:64px;height:64px;margin-top:25px;display:block}.backarrow:hover{background:url(backarrow_hover.5155b9a72d53fa936032.png) no-repeat}.details{color:#383a3f}.details-highlight{color:#383a3f;border-top:2px solid #cc2b39}.imgsrc{font-size:.15em}
+ */body{font-family:Nunito,"sans-serif";font-size:18px;font-palette:#383a3f}header{background:#6f00ff;padding:1em 0}header a{color:#fff;text-decoration:none}header a.logo{font-weight:700}header nav{float:right}header nav ul{list-style-type:none;margin:0;display:flex}header nav ul li a{padding:1em}header nav ul li a:hover{background:#5900cc}h1,h2,h4{margin-top:2em;color:#383a3f}.backarrow{background:url(backarrow.5902750a0901771e45dc.png) no-repeat;width:64px;height:64px;margin-top:25px;display:block}.backarrow:hover{background:url(backarrow_hover.5155b9a72d53fa936032.png) no-repeat}.details{color:#383a3f}.details-highlight{color:#383a3f;border-top:2px solid #cc2b39}.details-highlight-tulip{color:#383a3f;border-top:2px solid #df687a}.imgsrc{font-size:.15em}
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
