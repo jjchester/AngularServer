@@ -11,8 +11,6 @@ import {HttpClientModule} from '@angular/common/http';
 import { Wt1Component } from './My Work Terms/wt1/wt1.component';
 import { Wt2Component } from './My Work Terms/wt2/wt2.component';
 import { Wt3Component } from './My Work Terms/wt3/wt3.component';
-import { Wt4Component } from './My Work Terms/wt4/wt4.component';
-import { Wt5Component } from './My Work Terms/wt5/wt5.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 
@@ -24,8 +22,6 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
     Wt1Component,
     Wt2Component,
     Wt3Component,
-    Wt4Component,
-    Wt5Component,
     AboutmeComponent
   ],
   imports: [
